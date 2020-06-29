@@ -5,10 +5,10 @@ category: Food
 ---
 
 
-## Importing libraries
+## Importing python libraries
 
 
-Hey this is Data Analysis !
+## Hey this is Data Analysis !
 ```python
 import pandas as pd
 import numpy as np
