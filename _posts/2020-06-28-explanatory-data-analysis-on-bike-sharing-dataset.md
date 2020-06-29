@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bike Dataset EDA!
+category: Food
 ---
 
 
