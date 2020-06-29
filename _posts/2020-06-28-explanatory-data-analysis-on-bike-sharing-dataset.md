@@ -5,10 +5,10 @@ category: Food
 ---
 
 
-## Importing python libraries
+## Importing libraries
 
 
-## Hey this is Data Analysis !
+Hey this is Data Analysis !
 ```python
 import pandas as pd
 import numpy as np
@@ -316,7 +316,7 @@ sns.distplot(hour_df['total_count']);
 ```
 
 
-![png](output_13_0.png)
+![png](../images/output_13_0.png)
 
 
 
@@ -345,9 +345,9 @@ ax.set(title="Season wise hourly distribution of counts")
     [Text(0.5, 1.0, 'Season wise hourly distribution of counts')]
 
 
+![_config.yml]({{ site.baseurl }}/images/output_15_1.png)
 
-
-![png](output_15_1.png)
+`![png](../images/output_15_1.png)`
 
 
 
@@ -369,7 +369,7 @@ ax.set(title="Monthly distribution of counts")
 
 
 
-![png](output_16_1.png)
+![png](../images/output_16_1.png)
 
 
 
@@ -391,7 +391,7 @@ ax.set(title="Seasonal distribution of counts")
 
 
 
-![png](output_17_1.png)
+![png](../images/output_17_1.png)
 
 
 #### Checking for outliers:
@@ -414,7 +414,7 @@ sns.boxplot(data=hour_df[['temp',
 
 
 
-![png](output_19_1.png)
+![png](../images/output_19_1.png)
 
 
 
@@ -433,7 +433,7 @@ ax.set(title="Checking for outliners in day hours")
 
 
 
-![png](output_20_1.png)
+![png](../images/output_20_1.png)
 
 
 #### Correlations
@@ -465,7 +465,7 @@ sns.heatmap(corrMatt,
 
 
 
-![png](output_22_1.png)
+![png](../images/output_22_1.png)
 
 
 
@@ -486,7 +486,7 @@ plt.show();
 
 
 
-![png](output_23_1.png)
+![png](../images/output_23_1.png)
 
 
 ## Feature Engineering
@@ -700,7 +700,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](../images/output_31_0.png)
 
 
 
@@ -724,7 +724,7 @@ print("MSE::{}".format(mse))
 ```
 
 
-![png](output_32_0.png)
+![png](../images/output_32_0.png)
 
 
     R-squared::[0.39894459 0.35575732 0.3873037  0.38796861 0.42489499 0.41571164
@@ -761,7 +761,7 @@ print("MSE: {}".format(metrics.mean_squared_error(y_test, y_pred)))
 ```
 
 
-![png](output_34_0.png)
+![png](../images/output_34_0.png)
 
 
     MSE: 19062.99975600927
