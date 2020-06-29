@@ -1,3 +1,9 @@
+---
+layout: post
+title: Bike Dataset EDA!
+---
+
+
 ## Importing libraries
 
 
